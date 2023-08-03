@@ -1,0 +1,107 @@
+.shopingCardContainer{
+    width: 100vw;
+    height: 508px;
+    /* background-color: gray; */
+    /* border: 1px solid cornflowerblue; */
+    margin-bottom: 2rem;
+
+}
+.shopingCardContainer .title{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    margin: 82px;
+   
+    align-items:  center;
+}
+.shopingCardContainer .title h1{
+    font-size: 2rem;font-weight: 800;color: #2F302C;
+}
+.shopingCardContainer .title h6{
+    font-size: 1rem;color: #7E7F7C;font-weight: 700;
+}
+.process{
+    width: 898px;
+    /* height: 2px; */
+    background-color: transparent;
+    margin: auto;
+    position: relative;
+    margin-bottom: 3rem;
+
+}
+.dot{
+    width: 8px;height: 8px;border-radius: 50px;background-color: #2F302C;
+    position: absolute;
+    left: 0;
+    top: 50%;transform: translateY(-50%);
+}
+.processing{
+    width: 149px;
+    height: 2px;
+    background-color: #2F302C;
+    position: absolute;
+    left: 0;
+    top: 50%;transform: translateY(-50%);
+}
+.base{
+    width: 894px;
+    background-color: #D4D4D4;
+    height: 2px;
+}
+.process-nav{
+    /* margin: 5rem; */
+    width: 85vw;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    /* height: max-content; */
+    
+}
+.process-nav  .step a{
+    /* border: 1px solid red; */
+    display: flex;flex-direction: column;
+    align-items: center;
+    /* margin: 1rem; */
+    margin-left: 1rem;
+    gap: .3rem;
+    cursor: pointer;
+    /* transition: fill 1s; */
+}
+.process-nav .step a:hover svg rect{
+    
+    fill: #2F302C;
+    
+}
+svg path{
+    transition: stroke .7s ease;
+}
+svg rect{
+    transition: fill .7s ease;
+}
+
+.process-nav .step a:hover svg path{
+    
+    stroke: #F6F6F6;
+
+}
+
+.process-nav  .step a svg rect{
+    fill: #F6F6F6;
+}
+.process-nav  .step a svg path{
+    stroke: #2F302C;
+}
+.process-nav  .titleh4{
+    font-size: 1rem;
+    font-weight:700;
+    color: #2F302C;
+}
+.process-nav  .dec{
+    font-size: .8rem;
+    font-weight: 500;
+    color: #2F302C;
+    text-align: center;
+}

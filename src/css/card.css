@@ -1,0 +1,114 @@
+.card{
+    width: 100vw;
+    height: max-content;
+    padding: 82px 164px 82px 164px;
+    display: flex; 
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+    /* gap: 80px */
+
+}
+
+.card .colors div{
+    cursor: pointer;
+}
+.card .colors .color1{
+    width: 32px;
+    height: 32px;
+    background-color:#7BB5EB;
+}
+.card .colors .color2{
+    width: 32px;
+    height: 32px;
+    background-color:#3B5D5C;
+}
+.card .colors .color3{
+    width: 32px;
+    height: 32px;
+    background-color:#8B8B8B;
+}
+.card .colors .color4{
+    width: 32px;
+    height: 32px;
+    background-color:#5D3B53;
+}
+
+.stylecolorbox{
+    width: 40px !important; 
+    height: 40px !important;
+    border: 1px solid #2F302C;
+
+}
+.card .product{
+    height: 260px;
+    /* border: 1px solid red; */
+}
+.card .product .product-details{
+    /* width: 50%; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: c; */
+}
+.card .product .product-details .content{
+    display: flex;flex-direction: column;justify-content: space-between;
+    margin-left: 2rem;
+    height: 240px;
+}
+.card .product .product-details .content h3{
+    color: #2F302C;
+    font-size: 20px;
+}
+.card .product .product-details .content .star{
+    display: flex;gap: 1rem;
+}
+.card .product .product-details .content .colors{
+    display: flex;gap: 1rem;
+}
+#productVariant{
+    /* width: 160px; */
+    padding: 1rem;
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    width: 50vw;
+    /* border-right: 1px solid #D4D4D4;
+    padding-right: 5rem; */
+}
+.product-price{
+    align-self: self-end;
+}
+.product-price .variant1{
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    background-color: #F6F6F6;
+    width: max-content;
+    margin-bottom: 2rem;
+
+
+}
+.product-price .variant1 h2{
+    color: #7E7F7C;
+    font-weight: 700;
+}
+.product-price .variant1 h2 span{
+    color: #2F302C;
+    font-weight: 800;
+}
+.product-price .price{
+    font-size: 20px;
+    font-weight: 800;
+    text-align: right;
+}
+.line{
+    width: 2px;
+    height: 100vh;
+    margin: 0 3rem;
+    /* transform: rotate(-90deg); */
+    border: 1px solid #D4D4D4;
+}
+/* .yourReview{
+    margin-left: 1rem;
+} */
